@@ -47,3 +47,4 @@ out/
 .serverless/
 .fusebox/
 .dynamodb/
+level.log
