@@ -12,8 +12,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-from src.config import CACHE_DIR, CACHE_EXPIRY_SECONDS, logger
-from src.models import Article, WeeklyNews
+from config import CACHE_DIR, CACHE_EXPIRY_SECONDS, logger
+from models import Article, WeeklyNews
 
 
 class CacheManager:

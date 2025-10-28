@@ -9,10 +9,10 @@ import threading
 import time
 from typing import Any, Callable, Dict, List, Optional
 
-from src.cache import CacheManager
-from src.client import GeekNewsClient
-from src.config import SCHEDULER_INTERVAL_SECONDS, VALID_ARTICLE_TYPES, logger
-from src.parser import ArticleParser
+from cache import CacheManager
+from client import GeekNewsClient
+from config import SCHEDULER_INTERVAL_SECONDS, VALID_ARTICLE_TYPES, logger
+from parser import ArticleParser
 
 
 class DataRefreshScheduler:

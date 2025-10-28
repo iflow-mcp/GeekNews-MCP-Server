@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 
 import requests
 
-from src.config import BASE_URL, REQUEST_TIMEOUT, logger
+from config import BASE_URL, REQUEST_TIMEOUT, logger
 
 
 class GeekNewsClient:

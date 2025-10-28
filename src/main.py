@@ -9,8 +9,8 @@ import argparse
 import logging
 import sys
 
-from src.config import logger, setup_logging
-from src.server import GeekNewsServer, setup_signal_handlers
+from config import logger, setup_logging
+from geeknews_server import GeekNewsServer, setup_signal_handlers
 
 
 def parse_args() -> argparse.Namespace:

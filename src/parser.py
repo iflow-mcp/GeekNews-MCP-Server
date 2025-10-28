@@ -11,8 +11,8 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup, Tag
 
-from src.config import BASE_URL, logger
-from src.models import Article, WeeklyNews
+from config import BASE_URL, logger
+from models import Article, WeeklyNews
 
 
 class ArticleParser:
